@@ -1,0 +1,30 @@
+step1:- create account in git-hub
+
+step2:create repo in a git-hub
+
+     https://github.com/Ningaraj36/batch1.git
+
+step3:open vs code and open terminal in vs code
+
+strp4:- initlizate git in a terminal
+        git init
+
+step5: configure user-name and email to github
+
+git config --global user.name "Ningaraj36"
+git config --global user.gmail "ningarajl035@gmail.com"
+
+
+step6: add remote url to local repo
+
+git remote add origin https://github.com/Ningaraj36/batch1.git
+
+
+convert untrcaked files to tracked files
+
+git add .
+git commit -m "my new project"
+
+to push to github
+
+git push -u origin master
